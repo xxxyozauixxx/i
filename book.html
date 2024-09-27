@@ -101,40 +101,57 @@ $(document).ready(function(){
         邮箱：123***@qq.com<br />
         地 址：美国*加利福尼亚州*洛杉矶  Telegram电报官方反馈群：<a href="https://t.me/youzaiYYDS/" target="_blank">悠哉之家</a>
       </div>
-    </div>
-  </div>
-  <div class="mainR">
-    <div class="brandnavbox">
-      <h2>我要留言</h2>
-      <div class="con">当前位置：首页》我要留言</div>
-    </div>
-    <div class="detailbox">
-      <div class="xq">
-        <div class="formBox">
-          <div class="inputbox">
-            <label><span>*</span>姓名</label>
-            <input name="" type="text"  placeholder="请输入姓名"/>
-          </div>
-          <div class="inputbox2">
-            <label><span>*</span>内容</label>
-            <textarea name="" cols="" rows="" placeholder="请输入您要留言的内容"></textarea>
-          </div>
-          <div class="inputbox">
-            <label><span>*</span>手机号</label>
-            <input name="" type="text"  placeholder="请输入手机号"/>
-          </div>
-          <div class="inputbox">
-            <label><span>*</span>验证码</label>
-            <img src="images/yzm.jpg" class="yzmimg"/>
-            <input name="" type="text"  placeholder="请输入验证码" class="yzm"/>
-          </div>
-          <div class="inputbox">
-            <label></label>
-            <input name="" type="button" value="提交" class="btn1"/>
-          </div>
-        </div>
-      </div>
-    </div>
+   				   
+			    </div>
+				    
+				
+				<nav class="blog-nav nav nav-justified my-5">
+				  <a class="nav-link-prev nav-item nav-link rounded-left" href="#">上个<i class="arrow-prev fas fa-long-arrow-alt-left"></i></a>
+				  <a class="nav-link-next nav-item nav-link rounded-right" href="#">下个<i class="arrow-next fas fa-long-arrow-alt-right"></i></a>
+				</nav>
+				
+				<div class="blog-comments-section">
+					<div id="disqus_thread"></div>
+					<script>
+					    /**
+					     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+					     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+					     *  PLATFORM OR CMS.
+					     *  
+					     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+					     *  https://disqus.com/admin/universalcode/#configuration-variables
+					     */
+					    /*
+					    var disqus_config = function () {
+					        // Replace PAGE_URL with your page's canonical URL variable
+					        this.page.url = PAGE_URL;  
+					        
+					        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					        this.page.identifier = PAGE_IDENTIFIER; 
+					    };
+					    */
+					    
+					    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+					        var d = document, s = d.createElement('script');
+					        
+					        // IMPORTANT TODO: Replace 3wmthemes with your forum shortname!
+					        s.src = 'https://3wmthemes.disqus.com/embed.js';
+					        
+					        s.setAttribute('data-timestamp', +new Date());
+					        (d.head || d.body).appendChild(s);
+					    })();
+					</script>
+					<noscript>
+					    Please enable JavaScript to view the 
+					    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+					        comments powered by Disqus.
+					    </a>
+					</noscript>
+				</div><!--//blog-comments-section-->
+				
+		    </div><!--//container-->
+	    </article> </div>
+
   </div>
   <div class="clear"></div>
 </div>
